@@ -1,0 +1,32 @@
+html {
+  font-family: "inter";
+}
+
+body {
+  margin: 0;
+  background-color: #242529;
+}
+
+.nav {
+  padding: 24px;
+  background-color: #212121;
+  display: flex;
+  justify-content: space-between;
+  color: #61DBFB;
+}
+
+.nav > h4 {
+  color: white;
+}
+
+.logo > h2 {
+  margin: auto 16px;
+}
+
+.logo > img {
+  width: 60px;
+}
+
+.logo {
+  display: flex;
+}
