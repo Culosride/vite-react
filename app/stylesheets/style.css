@@ -1,22 +1,25 @@
 :root {
   --react: #61DBFB;
+  --logo: url("app/assets/react.svg");
+  --logo_grey: url("app/assets/react_grey.svg");
 }
 
 h1 {
   font-size: 48px;
 }
 
-html {
-  font-family: "inter";
-}
-
 body {
+  font-family: Inter, sans-serif;
   margin: 0;
   background-color: #242529;
+  background-image: var(--logo_grey);
+  background-repeat: no-repeat;
+  background-position: calc(100% + 150px) 75%;
+  height: 100vh;
 }
 
 .nav {
-  padding: 24px;
+  padding: 24px 40px;
   background-color: #212121;
   display: flex;
   justify-content: space-between;
@@ -32,7 +35,7 @@ body {
 }
 
 .logo > img {
-  width: 60px;
+  width: 40px;
 }
 
 .logo {
@@ -41,7 +44,7 @@ body {
 
 .wrapper {
   color: white;
-  padding: 24px;
+  padding: 24px 64px;
 }
 
 .list li {
